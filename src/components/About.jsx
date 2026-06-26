@@ -15,7 +15,7 @@ const paragraphs = [
   },
   {
     title: '04. FORMATION COMMUNITIES',
-    text: 'Medha Academy taught me how to think in the Bengali intellectual tradition. These are not just groups — they are the infrastructure of a generation learning to build again. I am what I am because of the people who chose to build alongside me.',
+    text: 'Sincere brotherhoods in Dhaka — the ones formed over chai at 2AM, shared silences, and the mutual recognition that we are all trying to build something real. These are not just groups; they are the infrastructure of a generation learning to build again. I am what I am because of the people who chose to build alongside me.',
   },
 ];
 

@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 export default function ArakanWatch() {
   return (
-    <section id="arakan" className="relative py-20 md:py-28 px-4 bg-gradient-to-b from-dark via-red-dark to-dark overflow-hidden">
+    <section id="arakan" className="relative py-20 md:py-28 px-4 bg-gradient-to-b from-dark via-red-dark/80 to-dark overflow-hidden">
       {/* Subtle geometric pattern */}
       <div
         className="absolute inset-0 opacity-[0.015] pointer-events-none"

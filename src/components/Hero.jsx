@@ -59,7 +59,7 @@ export default function Hero() {
         <PixelMap className="opacity-20 md:opacity-30 scale-150" />
       </div>
 
-      <div className="absolute inset-0 z-[1] bg-gradient-to-b from-transparent via-dark/30 to-dark/80" />
+      <div className="absolute inset-0 z-[1] bg-gradient-to-b from-transparent via-dark/15 to-dark/60" />
 
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <motion.p

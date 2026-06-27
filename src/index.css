@@ -7,12 +7,12 @@
   --color-amber-dim: #cc8f00;
   --color-amber-dark: #664000;
   --color-offwhite: #f0ede8;
-  --color-deepteal: #0d4f4f;
-  --color-teal-dark: #0a2e2e;
-  --color-dark: #0a0a0a;
-  --color-forest: #0a1a0a;
-  --color-deepgreen: #0d1f0d;
-  --color-red-dark: #1a0a0a;
+  --color-deepteal: #167373;
+  --color-teal-dark: #124040;
+  --color-dark: #1a1a1a;
+  --color-forest: #182a18;
+  --color-deepgreen: #1a301a;
+  --color-red-dark: #2a1010;
   --color-red-ember: #cc3300;
   --font-pixel: "VT323", monospace;
   --font-heading: "Press Start 2P", monospace;
@@ -24,7 +24,7 @@ html {
 }
 
 body {
-  background-color: #0a0a0a;
+  background-color: #1a1a1a;
   color: #f0ede8;
   font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -40,13 +40,13 @@ body {
   content: "";
   position: fixed;
   inset: 0;
-  background: repeating-linear-gradient(
-    0deg,
-    transparent,
-    transparent 2px,
-    rgba(0, 255, 136, 0.02) 2px,
-    rgba(0, 255, 136, 0.02) 4px
-  );
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 3px,
+      rgba(0, 255, 136, 0.015) 3px,
+      rgba(0, 255, 136, 0.015) 5px
+    );
   pointer-events: none;
   z-index: 9998;
 }
@@ -100,10 +100,10 @@ body {
   width: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #0a0a0a;
+  background: #1a1a1a;
 }
 ::-webkit-scrollbar-thumb {
-  background: #0d4f4f;
+  background: #167373;
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
@@ -124,8 +124,8 @@ body {
 
 /* Geometric pattern background */
 .geometric-bg {
-  background-image:
-    radial-gradient(circle at 20% 50%, rgba(0, 255, 136, 0.015) 0%, transparent 50%),
-    radial-gradient(circle at 80% 20%, rgba(13, 79, 79, 0.1) 0%, transparent 50%),
-    radial-gradient(circle at 40% 80%, rgba(255, 179, 0, 0.01) 0%, transparent 50%);
+    background-image:
+      radial-gradient(circle at 20% 50%, rgba(0, 255, 136, 0.04) 0%, transparent 50%),
+      radial-gradient(circle at 80% 20%, rgba(22, 115, 115, 0.15) 0%, transparent 50%),
+      radial-gradient(circle at 40% 80%, rgba(255, 179, 0, 0.03) 0%, transparent 50%);
 }

@@ -68,6 +68,15 @@ export default function Contact() {
                 </span>
               </a>
 
+              <div className="flex items-center gap-3 px-4 py-3 border border-jade/5 cursor-default">
+                <span className="font-pixel text-sm text-jade/30">&gt;</span>
+                <span className="font-pixel text-sm text-offwhite/40">
+                  linkedin.com/in/naimur
+                </span>
+                <span className="ml-auto font-pixel text-[10px] text-offwhite/15">
+                  [unlinked]
+                </span>
+              </div>
 
             </div>
           </div>

@@ -33,7 +33,7 @@ export default function Contact() {
           className="max-w-sm mx-auto"
         >
           {/* Terminal-style input */}
-          <div className="border border-jade/20 bg-dark/40 p-4 mb-6">
+          <div className="border border-jade/20 bg-dark/20 p-4 mb-6">
             <div className="flex items-center gap-2 mb-3">
               <span className="font-pixel text-xs text-jade/50">&gt; ./reach_out.sh</span>
               <span className="font-pixel text-[10px] text-offwhite/20">_ (async)</span>

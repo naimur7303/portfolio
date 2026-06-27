@@ -90,7 +90,7 @@ export default function Projects() {
               viewport={{ once: true, margin: '-50px' }}
               transition={{ duration: 0.5, delay: i * 0.08 }}
               whileHover={{ y: -4 }}
-              className="group p-5 bg-dark/60 border border-jade/10 hover:border-jade/30 transition-all duration-300 pixel-border-glow"
+              className="group p-5 bg-dark/40 border border-jade/10 hover:border-jade/30 transition-all duration-300 pixel-border-glow"
             >
               <div className="flex items-start justify-between mb-3 gap-2">
                 <h4 className="font-pixel text-xs md:text-sm text-offwhite leading-relaxed flex-1">

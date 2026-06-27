@@ -29,7 +29,7 @@ function PixelItem({ name, index }) {
   return (
     <div className="relative group">
       <div
-        className="pixel-border px-3 py-2 bg-dark/80 hover:bg-deepteal/20 transition-all duration-300 cursor-default"
+        className="pixel-border px-3 py-2 bg-dark/60 hover:bg-deepteal/20 transition-all duration-300 cursor-default"
         style={{
           borderColor: 'rgba(0, 255, 136, 0.15)',
         }}
@@ -87,7 +87,7 @@ export default function Skills() {
           Tools of the trade.
         </motion.h3>
 
-        <div className="p-6 md:p-8 border border-jade/10 bg-dark/40">
+        <div className="p-6 md:p-8 border border-jade/10 bg-dark/20">
           {/* RPG-style header */}
           <div className="flex items-center gap-4 mb-8 pb-4 border-b border-jade/10">
             <div className="pixel-border p-3">

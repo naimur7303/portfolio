@@ -6,13 +6,13 @@
   --color-amber: #ffb300;
   --color-amber-dim: #cc8f00;
   --color-amber-dark: #664000;
-  --color-offwhite: #f0ede8;
-  --color-deepteal: #167373;
-  --color-teal-dark: #124040;
-  --color-dark: #1a1a1a;
-  --color-forest: #182a18;
-  --color-deepgreen: #1a301a;
-  --color-red-dark: #2a1010;
+  --color-offwhite: #e8e4dc;
+  --color-deepteal: #1a8a8a;
+  --color-teal-dark: #1a5050;
+  --color-dark: #2a2a2a;
+  --color-forest: #223522;
+  --color-deepgreen: #263a26;
+  --color-red-dark: #3a1a1a;
   --color-red-ember: #cc3300;
   --font-pixel: "VT323", monospace;
   --font-heading: "Press Start 2P", monospace;
@@ -24,8 +24,8 @@ html {
 }
 
 body {
-  background-color: #1a1a1a;
-  color: #f0ede8;
+  background-color: #2a2a2a;
+  color: #e8e4dc;
   font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -100,10 +100,10 @@ body {
   width: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #1a1a1a;
+  background: #2a2a2a;
 }
 ::-webkit-scrollbar-thumb {
-  background: #167373;
+  background: #1a8a8a;
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {

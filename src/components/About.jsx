@@ -71,7 +71,7 @@ export default function About() {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.4 }}
-          className="mt-16 p-6 border border-jade/20 bg-dark/50"
+          className="mt-16 p-6 border border-jade/20 bg-dark/20"
         >
           <div className="font-pixel text-xs text-jade/50 mb-2">
             &gt; terminal — quote

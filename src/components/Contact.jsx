@@ -68,20 +68,7 @@ export default function Contact() {
                 </span>
               </a>
 
-              <a
-                href="https://linkedin.com/in/naimur"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-3 px-4 py-3 border border-jade/10 hover:border-jade/30 transition-colors group"
-              >
-                <span className="font-pixel text-sm text-jade/50 group-hover:text-jade transition-colors">&gt;</span>
-                <span className="font-pixel text-sm text-offwhite/60 group-hover:text-offwhite transition-colors">
-                  linkedin.com/in/naimur
-                </span>
-                <span className="ml-auto font-pixel text-[10px] text-offwhite/20 group-hover:text-jade/40 transition-colors">
-                  [external]
-                </span>
-              </a>
+
             </div>
           </div>
 

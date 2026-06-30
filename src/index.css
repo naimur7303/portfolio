@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'Terminal';
+  src: url('/fonts/Terminal.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme {
   --color-jade: #00ff88;
   --color-jade-dim: #00cc6a;
@@ -16,7 +24,7 @@
   --color-red-ember: #cc3300;
   --font-pixel: "VT323", monospace;
   --font-heading: "Press Start 2P", monospace;
-  --font-body: "Inter", sans-serif;
+  --font-body: "Terminal", "Inter", sans-serif;
 }
 
 html {
